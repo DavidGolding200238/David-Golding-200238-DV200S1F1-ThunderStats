@@ -1,0 +1,46 @@
+/* src/styles/ComparisonPage.css */
+.comparison-container {
+    text-align: center;
+    padding: 20px;
+  }
+  
+  .comparison-selection {
+    display: flex;
+    justify-content: center;
+    gap: 100px;
+    margin-top: 20px;
+  }
+  
+  .vehicle-section {
+    width: 500px;
+    text-align: center;
+  }
+  
+  .vehicle-image img {
+    width: 500px;
+    height: auto;
+    margin-top: 10px;
+    border-radius: 15px;
+    border: 4px solid #ddd;
+    object-fit: contain;
+  }
+  
+  .data-selection {
+    margin-top: 20px;
+  }
+  
+  .comparison-chart {
+    margin-top: 30px;
+    padding: 20px;
+    background: #f4f4f4;
+    border-radius: 10px;
+    max-width: 800px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  
+  .comparison-chart canvas {
+    max-width: 700px !important;
+    height: 400px !important;
+  }
+  

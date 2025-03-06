@@ -1,25 +1,29 @@
-import logo from './logo.svg';
-import './App.css';
+import React from "react";
+import { BrowserRouter as Router, Routes, Route, Link } from "react-router-dom";
+import ComparisonPage from "./pages/Comparisonpage"; // Import Comparison Page
 
-function App() {
+const App = () => {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <Router>
+      <div>
+        {/* Landing Page */}
+        <Routes>
+          <Route
+            path="/"
+            element={
+              <div>
+                <h1>Welcome to ThunderStats</h1>
+                <Link to="/compare">
+                  <button>Go to Comparison Page</button>
+                </Link>
+              </div>
+            }
+          />
+          <Route path="/compare" element={<ComparisonPage />} />
+        </Routes>
+      </div>
+    </Router>
   );
-}
+};
 
 export default App;

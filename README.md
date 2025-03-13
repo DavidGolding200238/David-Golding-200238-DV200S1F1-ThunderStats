@@ -1,70 +1,87 @@
-# Getting Started with Create React App
+ThunderStats
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+Overview
 
-## Available Scripts
+ThunderStats is a React-based data visualization web app built using the unofficial War Thunder API. The project focuses on clearly presenting information about aircraft, stats, and comparisons in a tactical, military-style design that's both engaging and easy to use.
 
-In the project directory, you can run:
+My Approach
 
-### `npm start`
+Development Steps:
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+Initially, I set up and experimented with the API in separate test projects to learn how to fetch images and data effectively.
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+Checked out other War Thunder API-based projects to get an idea of what was possible and to better plan my project.
 
-### `npm test`
+Drew simple, clean wireframes to guide the project's structure and user interface.
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+Reused and refined code from earlier experiments and integrated it into the main application.
 
-### `npm run build`
+Worked separately on improving data accuracy from the API, though this was challenging.
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+Used ChatGPT to learn about implementing animated backgrounds and exploring visual design ideas.
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+Iteratively refined layouts and styling to closely match my original wireframes.
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+Key Features
 
-### `npm run eject`
+Pulls dynamic aircraft data from the unofficial War Thunder API.
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+Filters data down to essential information for simpler viewing.
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+Comparison page to directly compare aircraft by speed, cost, and mass.
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+Radar charts clearly display four key aircraft stats side-by-side.
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+Timeline page shows individual aircraft progression over time, including changes in rank, battle rating, and repair costs across different game versions.
 
-## Learn More
+Simple yet visually appealing military-inspired UI.
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+Animated backgrounds and responsive layouts to improve user experience.
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+Installation and Setup
 
-### Code Splitting
+Clone the repository:
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+git clone <your-repository-link>
 
-### Analyzing the Bundle Size
+Move into the project folder:
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+cd thunderstats
 
-### Making a Progressive Web App
+Install dependencies:
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+npm install
 
-### Advanced Configuration
+Start the app:
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
+npm start
 
-### Deployment
+The application will open at http://localhost:3000
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
+Dependencies
 
-### `npm run build` fails to minify
+React
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+Axios (API fetching)
+
+Chart.js (data visualization)
+
+Additional dependencies listed in package.json
+
+Screenshots
+
+See screenshots of implemented pages in the /screenshots directory:
+
+Home Page (screenshots/home-page.png)
+
+Comparison Page (screenshots/comparison-page.png)
+
+Timeline Page (screenshots/timeline-page.png)
+
+Author
+
+Your Name
+
+Your Student Number (optional)
+
+Your Contact Information (optional)

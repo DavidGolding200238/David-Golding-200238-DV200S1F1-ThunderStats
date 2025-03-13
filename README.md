@@ -28,7 +28,7 @@ ThunderStats is a React-based data visualization web app built using the unoffic
 
 ### Clone the repository:
 ```sh
-git clone <your-repository-link>
+git clone <https://github.com/DavidGolding200238/thunderstats>
 ```
 
 ### Move into the project folder:

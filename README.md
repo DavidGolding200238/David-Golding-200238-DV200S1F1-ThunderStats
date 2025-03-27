@@ -28,12 +28,13 @@ ThunderStats is a React-based data visualization web app built using the unoffic
 
 ### Clone the repository:
 ```sh
-git clone <https://github.com/DavidGolding200238/thunderstats>
+git clone <https://github.com/DavidGolding200238/David-Golding-200238-DV200S1F1-ThunderStats.git>
 ```
 
 ### Move into the project folder:
 ```sh
-cd thunderstats
+cd David-Golding-200238-DV200S1F1-ThunderStats
+
 ```
 
 ### Install dependencies:
@@ -55,25 +56,20 @@ The application will open at [http://localhost:3000](http://localhost:3000).
 - Additional dependencies listed in `package.json`
 
 ## Screenshots
-See screenshots of implemented pages in the `/Screenshots` directory:
-- **Landing Page**: `Screenshots/Thunderstats_Landing Page.png`
-- **Comparison Page**: `Screenshots/Thunderstats_Comparison Page.png`
+
+![Landing Page](<Landing Page.png>)
+
+![Speed Chart](<Speed Chart.png>)
+
+![Mass Chart](<Mass Chart.png>)
+
+![Cost Chart](<Cost chart.png>)
+
+![Radar Chart](<Radar Chart.png>)
+
+![Time Line Battle Rating](<Timeline BR.png>)
+
+![Time Line repair costs](<Timeline repair costs.png>)
 
 ## Author
 **200238_David Golding**  
-
-![alt text](<Landing Page.png>)
-
-![alt text](<Speed Chart.png>)
-
-![alt text](<Mass Chart.png>)
-
-![alt text](<Cost chart.png>)
-
-![alt text](<Radar Chart.png>)
-
-![alt text](<Timeline BR.png>)
-
-![alt text](<Timeline repair costs.png>)
-
-![alt text](<Timeline Rank Change.png>)

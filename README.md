@@ -57,21 +57,21 @@ The application will open at [http://localhost:3000](http://localhost:3000).
 
 ## Screenshots
 
-![Landing Page](<Landing Page.png>)
+![Landing Page](<Screenshots/Landing Page.png>)
 
-![Speed Chart](<Speed Chart.png>)
+![Speed Chart](<Screenshots/Speed Chart.png>)
 
-![Mass Chart](<Mass Chart.png>)
+![Mass Chart](<Screenshots/Mass Chart.png>)
 
-![Cost Chart](<Cost chart.png>)
+![Cost Chart](<Screenshots/Cost chart.png>)
 
-![Radar Chart](<Radar Chart.png>)
+![Radar Chart](<Screenshots/Radar Chart.png>)
 
-![Time Line Battle Rating](<Timeline BR.png>)
+![Time Line Battle Rating](<Screenshots/Timeline BR.png>)
 
-![Time Line repair costs](<Timeline repair costs.png>)
+![Time Line repair costs](<Screenshots/Timeline repair costs.png>)
 
-![Time Line Rank Change](<Timeline rank change-1.png>)
+![Time Line Rank Change](<Screenshots/Timeline rank change-1.png>)
 
 ## Author
 **200238_David Golding**  

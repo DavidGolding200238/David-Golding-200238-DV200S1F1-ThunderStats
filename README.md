@@ -71,5 +71,7 @@ The application will open at [http://localhost:3000](http://localhost:3000).
 
 ![Time Line repair costs](<Timeline repair costs.png>)
 
+![Time Line Rank Change](<Timeline rank change-1.png>)
+
 ## Author
 **200238_David Golding**  

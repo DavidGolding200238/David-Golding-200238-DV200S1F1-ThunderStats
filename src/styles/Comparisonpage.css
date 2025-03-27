@@ -197,7 +197,7 @@
   border-radius: 10px;
   padding: 20px;
   margin: 40px auto 20px auto;
-  max-width: 1200px;
+  max-width: 1400px;
   background: #1e252c;
   z-index: 2;
   position: relative;
@@ -338,4 +338,15 @@
   box-sizing: border-box;
   margin: 0 auto;
   margin-top: 60px;
+}
+.nation-search-row {
+  display: flex;
+  gap: 10px;
+  align-items: flex-end;
+  margin-bottom: 10px;
+}
+
+.nation-search-row .nation-filter,
+.nation-search-row .search-bar {
+  flex: 1;
 }

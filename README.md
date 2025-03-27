@@ -15,14 +15,59 @@ ThunderStats is a React-based data visualization web app built using the unoffic
 - Used ChatGPT to explore animated backgrounds and visual design ideas.
 - Iteratively refined layouts and styling to closely match the original wireframes.
 
+### Final Development Notes:
+- Finalized styling for all pages.
+- Added and completed a timeline page.
+- Fixed display issues with the radar graph on the comparison page.
+- Ensured aircraft BR updates properly when the Ground Battle toggle is enabled.
+- Implemented reliable filtering logic for all nations and vehicle types.
+- Improved the search function to be more lenient and user-friendly.
+- Timeline chart works, though the API provides limited patch/version data — changes are visible on select vehicles.
+- Landing page graph is custom-built as required by the project brief.
+- Responsive layout was attempted, with mixed results.
+- All pages are connected and accessible via the navigation bar.
+- Color scheme was adjusted to enhance clarity and visual balance.
+- ChatGPT was used to understand timeline data, especially due to weak schema documentation in the official source.
+- A timeline schema file from the API's GitHub was used to better understand how to implement version tracking.
+- A `Global.css` stylesheet was created with ChatGPT’s help to ensure clean, consistent styling across components.
+- Pagination was implemented for API calls to retrieve all vehicles (beyond the default 200 limit) and improve performance.
+
+
 ## Key Features
-- Pulls dynamic aircraft data from the unofficial War Thunder API.
-- Filters data down to essential information for easier viewing.
-- Comparison page allows direct comparison of aircraft by speed, cost, and mass.
-- Radar charts clearly display four key aircraft stats side-by-side.
-- Timeline page shows individual aircraft progression over time, tracking changes in rank, battle rating, and repair costs across different game versions.
-- Simple yet visually appealing military-inspired UI.
-- Animated backgrounds and responsive layouts to enhance user experience.
+
+- Fetches real-time vehicle data using the unofficial War Thunder API.
+- Filters and displays essential information for easier comparison and readability.
+- Comparison page allows direct evaluation of two vehicles by speed, cost, and mass.
+- Radar charts provide a visual comparison of mass, repair cost, crew size, and research points.
+- Timeline page displays vehicle progression across game updates, including:
+  - Battle Rating (BR) changes
+  - Repair cost adjustments
+  - Rank updates over time
+- Military-inspired user interface with a clean, tactical design.
+- Includes animated backgrounds for atmosphere without affecting usability.
+- Basic responsive layout implemented for various screen sizes.
+- Improved filter logic supports multiple vehicle types, subtypes, and nations.
+- API pagination implemented to support full dataset loading beyond the default 200-vehicle limit.
+
+## Future Plans
+
+- Redesign the layout to offer more flexible and user-friendly filtering options.
+- Expand the comparison page to allow more than two vehicles to be compared simultaneously.
+- Add a modification overview section for each vehicle, displaying all unlockable modules and upgrades.
+- Improve responsiveness across devices with a fully adaptive layout and component structure.
+- Integrate additional stats and sorting controls to give users more control over how data is viewed.
+- Include unit role tags (e.g., interceptor, support, tank destroyer) for better classification and filtering.
+- Explore the possibility of saving and exporting comparison results.
+- Consider adding localization support for multiple languages in the interface.
+
+## Key Notes
+
+- The API used is unofficial and has strict data access rules. As a result, some vehicles may not appear, including hidden or event-exclusive units.
+- The timeline feature is limited by the scope of available patch data. Only certain vehicles show historical changes in battle rating, rank, or repair cost.
+- Some modification and unlockable data is not currently available or exposed by the API.
+
+
+
 
 ## Installation and Setup
 
@@ -57,21 +102,21 @@ The application will open at [http://localhost:3000](http://localhost:3000).
 
 ## Screenshots
 
-![Landing Page](<Screenshots/Landing Page.png>)
+![Landing Page](Screenshots/Landing Page.png)
 
-![Speed Chart](<Screenshots/Speed Chart.png>)
+![Speed Chart](Screenshots/Speed Chart.png)
 
-![Mass Chart](<Screenshots/Mass Chart.png>)
+![Mass Chart](Screenshots/Mass Chart.png)
 
-![Cost Chart](<Screenshots/Cost chart.png>)
+![Cost Chart](Screenshots/Cost chart.png)
 
-![Radar Chart](<Screenshots/Radar Chart.png>)
+![Radar Chart](Screenshots/Radar Chart.png)
 
-![Time Line Battle Rating](<Screenshots/Timeline BR.png>)
+![Time Line Battle Rating](Screenshots/Timeline BR.png)
 
-![Time Line repair costs](<Screenshots/Timeline repair costs.png>)
+![Time Line repair costs](Screenshots/Timeline repair costs.png)
 
-![Time Line Rank Change](<Screenshots/Timeline rank change.png>)
+![Time Line Rank Change](Screenshots/Timeline rank change.png)
 
 ## Author
 **200238_David Golding**  

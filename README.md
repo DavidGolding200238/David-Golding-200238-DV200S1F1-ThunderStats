@@ -62,3 +62,18 @@ See screenshots of implemented pages in the `/Screenshots` directory:
 ## Author
 **200238_David Golding**  
 
+![alt text](<Landing Page.png>)
+
+![alt text](<Speed Chart.png>)
+
+![alt text](<Mass Chart.png>)
+
+![alt text](<Cost chart.png>)
+
+![alt text](<Radar Chart.png>)
+
+![alt text](<Timeline BR.png>)
+
+![alt text](<Timeline repair costs.png>)
+
+![alt text](<Timeline Rank Change.png>)
